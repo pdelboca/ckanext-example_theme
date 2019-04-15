@@ -79,11 +79,8 @@ setup(
     # "scripts" keyword. Entry points provide cross-platform support and allow
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
-        [ckan.plugins]
-        example_theme=ckanext.example_theme.plugin:Example_ThemePlugin
-
-        [babel.extractors]
-        ckan = ckan.lib.extract:extract_ckan
+    [ckan.plugins]
+    example_theme=ckanext.example_theme.plugin:ExampleThemePlugin
     ''',
 
     # If you are changing from the default layout of your extension, you may
